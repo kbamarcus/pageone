@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+/* Inställningar för hur bakgrundsbilden skall fungera */
+.parallax { 
+  height: 800px; 
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+/* Boxen för texten skapas här */
+.scroll-box{
+  height: 100px; 
+  width: auto; 
+  background-color: rgba(0, 0, 0, 0.71); 
+  display: block;
+}
+
+
+/* Här kommer ID'n för de olika bakgrundsbilderna */
+#lightspace {
+  background-image: url("planet_light_space.jpg");
+}
+
+#lightspace2 {
+  background-image: url("planet_meteorites_space.jpg");
+  height: 1000px;
+}
+
+#lightspace3 {
+  background-image: url("planet_dark_space.jpg");
+  height: 1000px;
+}
+
+
+/* Här styrs textens utseende inuti scroll-boxen */
+#parall{ 
+  color: white; 
+  font-size: 20px; 
+  font-family: times; 
+  text-align: center; 
+  vertical-align: middle; 
+  line-height: 75px; 
+  letter-spacing: 5px;
+}
